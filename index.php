@@ -23,7 +23,7 @@
         </div>
         <div class="media mt-3 pl-2" >
 
-            <form class="row g-3" action="" method="POST">
+            <form class="row g-3" action="./credentials.php" method="POST">
             
                 <div class="col-12">
                   <label for="amount" class="form-label">Amount</label>
