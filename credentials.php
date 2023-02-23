@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
   
 
    $PartyA = $_POST['phone']; // This is your phone number, 
-  $AccountReference = '2255';
+  $AccountReference = 'SoftwaresKe';
   $TransactionDesc = 'Test Payment';
   $Amount = $_POST['amount'];;
  
@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
   $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
   # callback url
-  $CallBackURL = '';  
+  $CallBackURL = 'https://dev.softwareske.net/callback_url.php';  
 
   $curl = curl_init($access_token_url);
   curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
