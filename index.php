@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-12">
                   <label for="contact" class="form-label" >Phone Number</label>
-                  <input type="text" class="form-control" name="phone"  placeholder="e.g 07123*****" required>
+                  <input type="text" class="form-control" name="phone"  placeholder="e.g 2547123*****" required>
                 </div>
              
                 <div class="col-12">
